@@ -61,7 +61,8 @@ public class DateUtils extends org.apache.commons.lang.time.DateUtils{
     /**
      * 获得当前时间，格式 yyyy/MM/dd HH:mm:ss
      *
-     * @return
+     *
+     * @return 【yyyyMMddhhmmss】格式的文本日期
      */
     public static String getCurrDateTime() {
         return format(Calendar.getInstance().getTime(), DEFAULTDATETIMEPATTERN);
